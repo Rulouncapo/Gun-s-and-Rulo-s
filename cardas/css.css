@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    height: 150px;
+    background: #20001f;
+    justify-content: space-between;
+}
+.registro{
+    display: flex;
+    align-items: center;
+
+}
+.registro button{
+    color: none;
+    outline: none;
+    border: none;
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;    
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+.registrarse{
+    background-color: orange;
+    border: 1px solid black;
+}
+.identificacion{
+    background: none;
+}
+.logo{
+    margin: auto 10px;
+}
+.logo_img{
+    height: 100px;
+}
+.container-cards{
+display: grid;
+width: 80%;
+grid-template-columns: repeat(auto-fit, minmax(350px, 4fr));
+grid-row-gap: 15px;
+margin: 40px;
+}
+
+.card{
+    display: flex;
+    align-content: center;
+    flex-direction: column ;
+    height: 450px;
+    width: 300px;
+    background-color: rgb(226, 225, 225);
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.18) inset;
+    
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    margin: 20px 10px 40px 10px;
+    border-bottom: 2px solid grey;
+    
+}
+.item-img{
+    object-fit: contain;
+    height: 150px;
+  }
+.informacion{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
