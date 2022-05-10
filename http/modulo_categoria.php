@@ -3,7 +3,7 @@
      @$traer=$_GET['traer'];
      @$traer=$_GET['traer'];
      @$traer=$_GET['traer'];
-     @$traer=$_GET['traer'];
+     @$cosa=$_GET['traer'];
 
      if($traer){
          $resultado = $conexion->query("SELECT * FROM `categoria` WHERE `id_categoria`='$traer' ");
