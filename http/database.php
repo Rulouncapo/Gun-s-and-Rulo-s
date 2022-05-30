@@ -1,6 +1,5 @@
 <?php
-     $conexion = new mysqli("localhost", "root", "", "ecommerce");
-//      extract($_POST);
+2//      extract($_POST);
     //  $resultado = $conexion->query("SELECT * FROM categoria WHERE nombre_categoria like '$var'");
     //  $pokedex = $conexion->query("SELECT * FROM pokemon WHERE numero_pokedex like '%$var%' limit 1");
         //  $nazi = $conexion->query(
